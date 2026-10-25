@@ -44,7 +44,7 @@ systemTheme.addEventListener("change", (event) => {
 
 const menuToggle = document.querySelector(".menu-toggle");
 const navigation = document.querySelector(".navigation");
-const mobileLayout = window.matchMedia("(max-width: 640px)");
+const mobileLayout = window.matchMedia("(max-width: 760px)");
 
 function setMenuOpen(isOpen) {
   menuToggle.setAttribute("aria-expanded", String(isOpen));
