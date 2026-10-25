@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preatamos: una idea, un nuevo comienzo y un espacio para construir lo que viene.">
+    <meta name="color-scheme" content="light dark">
+    <title>Preatamos — Un nuevo comienzo</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header container">
+      <a class="brand" href="#inicio" aria-label="Preatamos, inicio">
+        <span class="brand-symbol" aria-hidden="true">p.</span>
+        <span>preatamos</span>
+      </a>
+
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" hidden>
+          <span aria-hidden="true">◐</span>
+          <span>Tema oscuro</span>
+        </button>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>
+          Menú <span aria-hidden="true">☰</span>
+        </button>
+      </div>
+
+      <nav class="navigation" id="navigation" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#proyecto">El proyecto <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero container" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Una idea. Un nuevo comienzo.</p>
+          <h1 id="hero-title">Lo que viene<br>empieza <em>aquí.</em></h1>
+          <p class="hero-description">Las grandes ideas empiezan con un primer paso. Este es el nuestro: un espacio para imaginar, crear y dar forma a lo que sigue.</p>
+          <a class="button" href="#proyecto">Descubre el proyecto <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></a>
+          <p class="hero-note">Poco a poco. Paso a paso. Con intención.</p>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-caption"><span>IDEAS EN MOVIMIENTO</span><span>01 / ∞</span></div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <span class="art-center">p.</span>
+          <svg class="art-spark" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"><path d="M32 4v56M4 32h56M12 12l40 40M12 52 52 12"/></svg>
+          <div class="art-footer"><span>Un pequeño inicio.</span><span>Un mundo de posibilidades.</span></div>
+        </div>
+      </section>
+
+      <section class="project container" id="proyecto" aria-labelledby="project-title">
+        <div class="section-heading">
+          <p class="eyebrow">EL PUNTO DE PARTIDA</p>
+          <h2 id="project-title">Una base sencilla.<br>Muchas posibilidades.</h2>
+          <p>Este es el comienzo de Preatamos. Una primera versión que puede crecer y cambiar junto con tu idea.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <span class="card-number">01 /</span>
+            <h3>Una idea clara</h3>
+            <p>Un lugar para contar quién eres, qué haces y qué quieres compartir con el mundo.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">02 /</span>
+            <h3>A tu manera</h3>
+            <p>Colores, palabras y detalles que puedes transformar para darle tu propia identidad.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">03 /</span>
+            <h3>Espacio para crecer</h3>
+            <p>Un primer paso al que puedes sumar nuevas secciones y experiencias cuando lo necesites.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <a class="brand" href="#inicio">preatamos<span class="footer-dot" aria-hidden="true">.</span></a>
+      <p>Hecho con ideas y ganas de empezar.</p>
+      <a class="back-top" href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Configuración privada y archivos temporales
+.env
+.env.*
+*.log
+__pycache__/
